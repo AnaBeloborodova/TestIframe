@@ -74,7 +74,6 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -304,17 +303,10 @@ template {
 [hidden] {
   display: none; }
 
-.link-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  .link-wrap div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 100px;
-    width: 20%;
-    border: 2px solid #4682B4;
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin: 10px 10px 10px 10px; }
+iframe {
+  height: fill-available;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: darkgrey; }
